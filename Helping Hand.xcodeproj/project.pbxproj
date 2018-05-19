@@ -18,6 +18,7 @@
 		B5C1715420AB853E00BD9A6F /* Helping_HandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1715320AB853E00BD9A6F /* Helping_HandUITests.m */; };
 		B5FEF58320ADD85C003287E0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FEF58220ADD85C003287E0 /* MainViewController.m */; };
 		B5FEF58620ADD874003287E0 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FEF58520ADD874003287E0 /* RegisterViewController.m */; };
+		B5FEF58C20AF8F18003287E0 /* ServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FEF58B20AF8F18003287E0 /* ServerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		B5FEF58220ADD85C003287E0 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		B5FEF58420ADD874003287E0 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		B5FEF58520ADD874003287E0 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		B5FEF58A20AF8F18003287E0 /* ServerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerController.h; sourceTree = "<group>"; };
+		B5FEF58B20AF8F18003287E0 /* ServerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 		B5ACBC1F20ACA1E200D01E49 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B5FEF58A20AF8F18003287E0 /* ServerController.h */,
+				B5FEF58B20AF8F18003287E0 /* ServerController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FEF58C20AF8F18003287E0 /* ServerController.m in Sources */,
 				B5C1713420AB853B00BD9A6F /* LoginViewController.m in Sources */,
 				B5FEF58620ADD874003287E0 /* RegisterViewController.m in Sources */,
 				B5C1713F20AB853E00BD9A6F /* main.m in Sources */,
